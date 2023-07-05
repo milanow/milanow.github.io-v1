@@ -1,3 +1,4 @@
 title: the cavalry's here
 description: everything everywhere all at once, like a donut
-theme: just-the-docs
+# theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.5.4
