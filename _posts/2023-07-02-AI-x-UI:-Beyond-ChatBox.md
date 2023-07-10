@@ -25,7 +25,8 @@ title:  "AI x UX - Beyond ChatBox"
 
 **Point, Select & Action (充分表达的交互意图)**: 本期播客其实更像是为了新的Notion Projects与Notion AI做广告。实际上更加启发我的是嘉宾Linus在其日常blog里关于AI UX的分享。在 [Generative Interfaces Beyond Chat](https://www.youtube.com/watch?v=rd-J3hmycQs) 中，Linus提到了「Point, Select & Action」的概念，这个概念很容易在现有的交互中找到例子，比如此时用户希望复制一段文本，Ta可能需要将光标移动到一段文字的开头，按住并拖动光标选中高亮一部分的文本，再进行右键复制的操作。在这个例子里，光标的起始位置就是「Point」，而拖动光标则代表「Select」，用户由此来表达自己将要对这部分文本采取复制的「Action」。通过以上三点系统可以完全理解用户的交互意图，给到用户正确的响应预期。
 实际上，上图的context menu就是「Action」的具体例子，其代表了在确定范围内，即某个table column作为「Point」和「Select」，提供给用户所能采取的所有可能的「Action」。这里我特别喜欢原文的表述：
-Funnel the users to the right action
+> Funnel the users to the right action
+
 funnel这个词我认为用得比narrow还要形象。
 
 **Feedback Loops**: Linus也提到了user feedback loops的重要性。就像最初遇到ChatGPT我不知道该问什么问题而懵在那里一样，在多数情况下，用户更倾向于「选择」而不是「创造」。因此，在结果比较好衡量的情况下，可以尽量返回给用户更多的结果让用户来选择自己喜欢的那个。例如在Midjourney生成多张图片，或者对文章总结生成多个答案都属于此范畴。这样的设计在下面的一期播客也会提到，不止可以让用户更满意AI输出的结果，还能够根据用户行为（选择哪个答案）来评价模型输出的答案，以此来增强模型效果。
