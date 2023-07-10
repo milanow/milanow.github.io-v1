@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Posts
-nav_order: 1
+nav_order: 2
 ---
 
 [AI x UI: Beyond ChatBox]({% post_url 2023-07-02-AI-x-UI:-Beyond-ChatBox %})
