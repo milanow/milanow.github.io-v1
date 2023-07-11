@@ -4,7 +4,7 @@ title: Posts
 nav_order: 1
 ---
 
-主要记录一些技术有关的分享与自己的感悟
+最好的知识是：「文字简练，逻辑流畅，内容晦涩」
 
 - 2023/07/02 - [AI x UI: Beyond ChatBox]({% post_url 2023-07-02-AI-x-UI:-Beyond-ChatBox %})
 - 2023/06/14 - [LangChain Retrieval Webinar]({% post_url 2023-06-14-LangChain-Retrieval-Webinar %})
