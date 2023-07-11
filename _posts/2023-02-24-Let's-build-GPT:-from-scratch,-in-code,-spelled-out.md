@@ -1,5 +1,9 @@
+---
+layout: post
+title:  "Let's build GPT: from scratch, in code, spelled out."
+---
 
-## 2023/02/24 - Let's build GPT: from scratch, in code, spelled out.
+## Let's build GPT: from scratch, in code, spelled out.
 
 视频地址：https://www.youtube.com/watch?v=kCc8FmEb1nY
 
