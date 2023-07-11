@@ -2,10 +2,11 @@
 ## 2023/02/24 - Let's build GPT: from scratch, in code, spelled out.
 
 视频地址：https://www.youtube.com/watch?v=kCc8FmEb1nY
+
 内容简介：这期主要关注Andrej实现「Self-attention」「Multihead self-attention」的过程，他以莎士比亚的剧本为训练数据写出了更多的仿莎士比亚剧本，比如：
-The top in a world by susphoring grace. 
-LUCIO: We muse hath resistes him so sovere: son't his other wrough stands of coverent sh'd: he has here, and stand it and poor exceeder or a Henry's last, stay not in faith, forewell's base of graves, thanks, happy comparel, warmentfully: may as face by the courst, that strangth errise hath breathed. Hastings come to 
+> The top in a world by susphoring grace. LUCIO: We muse hath resistes him so sovere: son't his other wrough stands of coverent sh'd: he has here, and stand it and poor exceeder or a Henry's last, stay not in faith, forewell's base of graves, thanks, happy comparel, warmentfully: may as face by the courst, that strangth errise hath breathed. Hastings come to 
 Valenting. HERMIONE: Well have been bolly poor late Is the lords.
+
 视频的最后比对了他自己在两小时实现的tiny GPT与ChatGPT的区别（然而似乎他并不打算继续介绍fine-tune和PPO的部分，也许和他入职OpenAI有关）。
 视频里面的一些资料（原Youtube视频介绍中有提到）：
 - Google colab for the video: https://colab.research.google.com/dri...
