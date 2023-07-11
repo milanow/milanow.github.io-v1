@@ -11,7 +11,7 @@ title:  "AI x UX - Beyond ChatBox"
 答案显然是否定的。最近听的两期Latent Space的podcast回答了我的大部分由此产生的疑问。[Building the AI × UX Scenius - with Linus Lee of@Notion](https://www.latent.space/p/ai-interfaces-and-notion) 关注如何更好的呈现现有的AI能力，请到了Linus Lee - Research Enginer, Notion AI，主要的分享涉及一些Notion AI的产品形态，包括「AI Autofills」「AI Block」以及背后的思考 。From RLHF to RLHB: The Case for Learning from Human Behavior - with Jeffrey Wang and Joe Reeve of Amplitude 则关注AI产品的数据分析工具，请来了[Jefferey Wang与Joe Reeve@Amplitude](https://www.latent.space/p/amplitude)，主要分享如何更精确地收集用户反馈用来做数据分析，或者帮助AI模型更好的迭代。两期着重强调了「用户引导」与「用户行为反馈」。
 
 ---
-**Building the AI × UX Scenius**
+#### Building the AI × UX Scenius
 先说说Linus Lee这期。与许多人设想地一样，Linus也着重强调了AI交互设计应该考虑到语言模型的局限性，应该将语言模型擅长的部分与正确的用户预期对齐。一个简单的例子是「聊天框」与「搜索框」：如果是一个像OpenAI一样的聊天框，用户可能会向聊天框里输入任何奇怪的问题，比如把对面当成人而在输入框里输入Hello，此时用户甚至对答案没有明确的预期，所以也不会「对齐预期」的发生。而搜索框在外观上区别于聊天框，更加直观地传递了它所代表的功能，让用户真正地把AI视作工具。同时，在搜索的语境下，因为有了更多的限制，比如在飞书中的「消息」搜索框智能够搜索到飞书的消息，让数据搜索的范围减小，也能让模型在更小的问题空间下更能准确地解决具体问题。
 
 
@@ -36,8 +36,7 @@ funnel这个词我认为用得比narrow还要形象。
 - https://twitter.com/quasimondo/status/1248648825864142848 用Joystick来探索生成人像的角度
 
 ---
-From RLHF to RLHB: The Case for Learning from Human Behavior
-
+#### From RLHF to RLHB: The Case for Learning from Human Behavior
 Amplitude则先分享了自己的创业故事。Amplitude这家公司最初的名字为SonaLite，是一个主要解决语音转换文字问题的公司。它的设想是人们在开车或者类似不方便使用手机的时候，可以通过此种交互方式流畅地在手机上使用IM功能。随着时间推移，两个创始人Spencer和Curtis很快发现实现这个产品最困难的技术在于语音识别，但两个人都不是机器学习背景出身，对花精力解决此类问题并不是很感兴趣，相反地，他们开始思考类似「用户为什么喜欢他们的产品？」的问题，并以此构建了一系列分析工具来帮助他们理解用户行为。结果，与他们同一批在YC孵化的公司在看见他们使用的分析工具后，对此产生了浓厚的兴趣。同时他们发现市场上并没有与他们现有产品类似的工具，他们就此转型，变成了一家现在专攻于toB的数据分析工具公司。他们的目标，就是挖掘更多的用户行为信息，并以此来帮助客户实现商业化得最大成功。
 
 以下三点对我很有启发：
